@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Battle Arena</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="hud">
+        <div>❤️ HP: <span id="health">100</span></div>
+        <div>💀 Kills: <span id="kills">0</span></div>
+        <div>👥 Players: <span id="players">0</span></div>
+    </div>
+
+    <div id="crosshair">+</div>
+
+    <canvas id="game"></canvas>
+
+    <div id="startScreen">
+        <h1>⚡ BATTLE ARENA</h1>
+        <p>Multiplayer Battle Royale</p>
+
+        <button id="startButton">
+            PLAY NOW
+        </button>
+
+        <p class="controls">
+            WASD = Move<br>
+            Mouse = Aim<br>
+            Left Click = Shoot
+        </p>
+    </div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
